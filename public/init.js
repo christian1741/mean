@@ -21,5 +21,4 @@ var modules = ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.router', 'mean.sys
 modules = modules.concat(packageModules);
 
 // Combined modules
-
 angular.module('mean', modules);
